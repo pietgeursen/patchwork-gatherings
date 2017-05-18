@@ -32,7 +32,6 @@ exports.create = function (api) {
 
   function page(path) {
     if (path !== '/gatherings') return // "/" is a sigil for "page"
-    console.log('gatherings route!')
 
     const gatherings = Array([])
     const content = h('div.SplitView', {}, [
