@@ -1,0 +1,36 @@
+{
+  "name": "patchwork-gatherings",
+  "version": "1.0.0",
+  "description": "Plugs patch-gatherings into patchwork",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pietgeursen/patchwork-gatherings.git"
+  },
+  "keywords": [
+    "depject",
+    "ssbc",
+    "patchwork",
+    "patchcore",
+    "patchbay",
+    "scuttlebutt"
+  ],
+  "author": "pietgeursen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pietgeursen/patchwork-gatherings/issues"
+  },
+  "homepage": "https://github.com/pietgeursen/patchwork-gatherings#readme",
+  "dependencies": {
+    "bulk-require": "^1.0.0",
+    "depject": "^4.1.0",
+    "depnest": "^1.3.0",
+    "libnested": "^1.2.1",
+    "mutant": "^3.19.0",
+    "pull-stream": "^3.5.0",
+    "read-directory": "^2.0.0"
+  }
+}
