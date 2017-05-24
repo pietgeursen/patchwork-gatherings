@@ -17,4 +17,7 @@ fs.readFile(path.join(__dirname, 'gatherings/style.mcss'), 'utf8', (err, res) =>
   insertCss(compile(res))
 })
 
-module.exports = {'patchwork-gatherings': modules}
+module.exports = {
+  'patchwork-gatherings': modules,
+  'patch-gatherings': require('patch-gatherings')
+}
