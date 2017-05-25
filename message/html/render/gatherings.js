@@ -33,9 +33,15 @@ exports.create = function (api) {
   function page(path) {
     if (path !== '/gatherings') return // "/" is a sigil for "page"
 
+    const creator = api.gathering.html.create({})
     const gatherings = Array([])
-    const content = h('div.SplitView', {}, [
-      h('div.main', map(gatherings, api.gathering.html.render))
+
+    const content = h('Gatherings', {}, [
+      h('Scroller', [
+        h('header'),
+        h('section.actions', creator),
+        h('section.main', map(gatherings, api.gathering.html.render))
+      ])
     ])
     pull(
       api.gathering.pull.find(),

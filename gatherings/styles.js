@@ -15,6 +15,5 @@ module.exports = function mcss (sofar = {}) {
     sofar[name] = content
   })
 
-  console.log(sofar)
   return sofar
 }

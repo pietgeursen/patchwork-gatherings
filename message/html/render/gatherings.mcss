@@ -1,0 +1,21 @@
+Gatherings {
+  display: flex
+  flex: 3
+
+  div.Scroller {
+    align-items: center
+
+    header {}
+
+    section.actions {
+      align-self: flex-start;
+      margin: 1rem;
+    }
+
+    section.main {
+      display: flex
+      flex-direction: column
+      flex: 1
+    }
+  }
+}
