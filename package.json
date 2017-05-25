@@ -1,6 +1,6 @@
 {
   "name": "patchwork-gatherings",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Plugs patch-gatherings into patchwork",
   "main": "index.js",
   "scripts": {
