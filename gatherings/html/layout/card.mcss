@@ -22,15 +22,14 @@ Message -gathering-card {
 
     a {
       display: flex
-      flex-wrap: wrap
 
       color: initial 
       :hover { text-decoration: none }
 
       div.toggle-layout {
         position: absolute
-        top: 3.0rem
-        right: 1rem
+        top: 2rem
+        right: 2rem
         border: none
         border-radius: 0
         background-color: rgba(255,255,255,0.2)
@@ -58,8 +57,9 @@ Message -gathering-card {
 
       div.date-splash {
         flex-basis: 20rem
-        height: 14rem
+        min-height: 14rem
         background-size: cover 
+        background-position: center 
 
         display: flex
         align-items: center
