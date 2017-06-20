@@ -32,7 +32,7 @@
     "libnested": "^1.2.1",
     "micro-css": "^2.0.1",
     "mutant": "^3.19.0",
-    "patch-gatherings": "^2.3.0",
+    "patch-gatherings": "^2.4.2",
     "pull-stream": "^3.5.0",
     "read-directory": "^2.0.0"
   }
