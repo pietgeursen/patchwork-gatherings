@@ -1,3 +1,5 @@
+# Please note this has been deprecated as gatherings is part of patchwork core.
+
 > Plugs [patch-gatherings]() into [patchwork]() 
 
 `gives` Patchwork style views of patch-gatherings 
